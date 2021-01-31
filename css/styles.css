@@ -1,4 +1,7 @@
-*{
+:root{
+  --text-color: #2196F3;
+}
+body{
  font-family: Roboto;
 }
 .nav-title{
@@ -10,8 +13,12 @@
   text-decoration: none;
   color: black;
 }
+.nav-title-studio{
+  font-family: Raleway;
+}
 .nav-title-web{
-  color: #2196F3;
+  color: var(  --text-color);
+  font-family: var(--font-label);
 }
 .link-decoration{
   font-family: Roboto;
@@ -47,4 +54,43 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: #757575;
+}
+.color-light{
+  color:var(  --text-color);
+}
+.change-color:hover{
+  color:white ;
+  background-color:var(--text-color) ;
+}
+.button-text{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.description-head{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+color: #212121;
+letter-spacing: 0.06em;
+}
+.hero-button{
+  color: white;
+  background-color: var(--text-color) ;
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
 }
