@@ -4,7 +4,7 @@
 body{
  font-family: Roboto;
 }
-.nav-title{
+a.nav-title{
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -13,12 +13,8 @@ body{
   text-decoration: none;
   color: black;
 }
-.nav-title-studio{
-  font-family: Raleway;
-}
 .nav-title-web{
   color: var(  --text-color);
-  font-family: var(--font-label);
 }
 .link-decoration{
   font-family: Roboto;
