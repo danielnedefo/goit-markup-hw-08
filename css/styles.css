@@ -1,8 +1,17 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Остальной код */
 :root{
   --text-color: #2196F3;
 }
 body{
  font-family: Roboto;
+ background: #E5E5E5;
 }
 a.nav-title{
   font-family: Raleway;
@@ -29,7 +38,7 @@ a.nav-title{
 }
 .hero-background{
   position: absolute;
-width: 1600px;
+width: 100%;
 height: 600px;
 left: 0px;
 top: 80px;
@@ -80,61 +89,52 @@ letter-spacing: 0.06em;
 }
 .hero-button{
   color: white;
- position: absolute;
-width: 200px;
-height: 50px;
-left: 700px;
-top: 430px;
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
+display: flex;
+margin-left: 580px;
 }
 .header{
-  position: absolute;
-width: 1600px;
-height: 80px;
-left: 0px;
-top: 0px;
 background: #FFFFFF;
 }
 .header-position{
-  position: absolute;
-width: 1600px;
+width: 100%;
 height: 80px;
 left: 0px;
 top: 0px;
+display: flex;
 
 background: #FFFFFF;
 }
 .title-position{
-  position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
+padding-top: 24px;
+padding-bottom: 25px;
+padding-left: 15px;
+display: flex;
 }
-.studio-position{
+/* .studio-position{
   position: absolute;
 width: 49px;
 height: 16px;
 left: 453px;
 top: 32px;
-}
-.portfolio-position{
+} */
+/* .portfolio-position{
   position: absolute;
 width: 77px;
 height: 16px;
 left: 552px;
 top: 32px;
-}
-.contacts-position{
+} */
+/* .contacts-position{
   position: absolute;
 width: 68px;
 height: 16px;
 left: 679px;
 top: 32px;
-}
-.mail-position{
+} */
+/* .mail-position{
   position: absolute;
 width: 135px;
 height: 16px;
@@ -147,27 +147,21 @@ width: 122px;
 height: 16px;
 left: 1263px;
 top: 32px;
+} */
+.size{
+  height: 800;
+  box-sizing: border-box;
 }
 .hero-title{
-  position: absolute;
-width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;
 background: #2F303A;
 }
 .hero-title-position{
+margin: 0 auto;
 padding-top: 200px;
 padding-bottom: 280px;
-padding-right: 452px;
-padding-left: 452px;
+
 }
-.button-position{
-padding-top: 350px;
-padding-bottom: 200px;
-padding-right: 700px;
-padding-left: 700px;
-}
+
 .title{
   font-family: Roboto;
 font-style: normal;
@@ -177,7 +171,130 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-
 color: #FFFFFF;
+}
+.menu{
+  padding: 110px;
+}
+.description{
+  margin-top: 94px;
+  width: 1170px;
+  height: 101px;
+  margin-bottom: 94px;
+}
+.inline{
+  display: flex;
+  justify-content: space-between;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
+/* .gallery-list-item{
+  width: calc((100% - 120) / 4);
+} */
+.studio{
+  margin-left: 93px;
+margin-top: 15px;
+}
+.portfolio{
+  margin-left: 50px;
+  margin-top: 15px;
+}
+.contacts{
+  margin-left: 50px;
+  margin-top: 15px;
+}
+.email{
+  margin-left: 331px;
+  margin-top: 15px;
+}
+.phone{
+  margin-left: 50px;
+  margin-top: 15px;
+}
+.cell{
+  flex-wrap: wrap;
+  display: flex;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.item{
+margin-left: 30px;
+  margin-top: 30px;
+  margin-left: -30px;
+  margin-top: -30px;
+   flex-basis: calc(100% / 4 - 30px);
+}
+
+ 
+.team-list{
+  
+  display: flex;
+  flex-wrap: wrap;
+   margin-left: -30px;
+  margin-top: -30px;
+/*   material shadow v1 */
+  /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px; */
+
+}
+/* .team-member-people:not(:first-child){
+margin-left: 30px;
+} */
+.team-member{
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc(100% / 4 - 30px);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+ .container{
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.photos{
+   flex-wrap: wrap;
+  display: flex;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.photos-item{
+ margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc(100% / 3 - 30px);
+}
+.h-center{
+  text-align: center;
+}
+.advantages-position{
+  margin-top: 110px;
+  margin-bottom: 110px;
+}
+.header-work{
+  padding-bottom: 50px;
+}
+.works{
+  margin-bottom: 94px;
+}
+.header-team{
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+.h-hidden{
+text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.buttom-text{
+  padding: 10px 32px;
+}
+.team{
+  background: #F5F4FA;
+  margin-bottom: 94px;
 }
