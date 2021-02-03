@@ -185,7 +185,7 @@ color: #FFFFFF;
 }
 .inline{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 img {
   display: block;
@@ -333,4 +333,15 @@ text-indent: 100%;
 }
 .nav-title-studio-footer{
   color: white;
+}
+.work-list{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.work-list-works{
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc(100% / 3 - 30px);
 }
