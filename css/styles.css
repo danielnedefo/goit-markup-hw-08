@@ -52,6 +52,7 @@ font-weight: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
+color: white;
 }
 .description-text{
 font-family: Roboto;
@@ -296,5 +297,40 @@ text-indent: 100%;
 }
 .team{
   background: #F5F4FA;
+  /* margin-bottom: 94px; */
+}
+.container-team{
   margin-bottom: 94px;
+}
+.footer-block{
+  box-sizing: border-box;
+  width: 252px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-logo{
+  margin-top: 60px;
+  margin-left: 15px;
+}
+.footer-address{
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.footer-list{
+      padding-inline-start: 0px;
+      list-style-type: none;
+      margin-left: 15px;
+      margin-top: 9px;
+}
+.footer-phone{
+  margin-top: 9px;
+}
+.footer{
+  background: #2F303A;
+}
+.footer-address-color{
+  color: rgba(255, 255, 255, 0.6);
+}
+.nav-title-studio-footer{
+  color: white;
 }
