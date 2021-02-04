@@ -53,6 +53,7 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: white;
+min-width: 231px;
 }
 .description-text{
 font-family: Roboto;
@@ -78,6 +79,8 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
+padding: 6px 22px;
+border-width: 0px;
 }
 .description-head{
   font-family: Roboto;
@@ -95,6 +98,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 display: flex;
 margin-left: 580px;
+padding: 10px 32px;
 }
 .header{
 background: #FFFFFF;
@@ -225,8 +229,6 @@ margin-top: 15px;
 .item{
 margin-left: 30px;
   margin-top: 30px;
-  margin-left: -30px;
-  margin-top: -30px;
    flex-basis: calc(100% / 4 - 30px);
 }
 
@@ -237,6 +239,7 @@ margin-left: 30px;
   flex-wrap: wrap;
    margin-left: -30px;
   margin-top: -30px;
+  padding: 0px;
 /*   material shadow v1 */
   /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px; */
@@ -292,21 +295,17 @@ text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
 }
-.buttom-text{
-  padding: 10px 32px;
-}
 .team{
   background: #F5F4FA;
-  /* margin-bottom: 94px; */
-}
-.container-team{
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .footer-block{
   box-sizing: border-box;
   width: 252px;
   display: flex;
   flex-direction: column;
+  padding: 49px;
+  min-width: 231px;
 }
 .footer-logo{
   margin-top: 60px;
@@ -339,9 +338,43 @@ text-indent: 100%;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
+  padding: 0px;
 }
 .work-list-works{
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 3 - 30px);
+ background: #FFFFFF;
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+} 
+.main-position{
+  margin-bottom: 94px;
+  margin-top: 94px;
+}
+.people-names{
+  margin-top: 30px;
+  text-align: center;
+}
+.people-position{
+ text-align: center;
+ margin-top: 10px;
+}
+.project-name{
+  margin-left: 24px;
+  margin-top: 20px;
+}
+.description-text{
+  margin-left: 24px;
+  margin-top: 4px;
+}
+.button-style{
+ margin-left: 30px;
+ 
+}
+.buttom-text-hero{
+  page-break-inside: 10px 32px;
+}
+.link-block{
+  display: block;
 }
