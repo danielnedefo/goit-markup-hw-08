@@ -4,7 +4,15 @@
 *::after {
   box-sizing: border-box;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 /* Остальной код */
 :root{
   --text-color: #2196F3;
@@ -97,8 +105,10 @@ background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 display: flex;
-margin-left: 580px;
+margin-left: auto;
+margin-right: auto;
 padding: 10px 32px;
+margin-top: 30px;
 }
 .header{
 background: #FFFFFF;
@@ -118,43 +128,8 @@ padding-bottom: 25px;
 padding-left: 15px;
 display: flex;
 }
-/* .studio-position{
-  position: absolute;
-width: 49px;
-height: 16px;
-left: 453px;
-top: 32px;
-} */
-/* .portfolio-position{
-  position: absolute;
-width: 77px;
-height: 16px;
-left: 552px;
-top: 32px;
-} */
-/* .contacts-position{
-  position: absolute;
-width: 68px;
-height: 16px;
-left: 679px;
-top: 32px;
-} */
-/* .mail-position{
-  position: absolute;
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;
-}
-.phone-position{
-  position: absolute;
-width: 122px;
-height: 16px;
-left: 1263px;
-top: 32px;
-} */
 .size{
-  height: 800;
+  height: 800px;
   box-sizing: border-box;
 }
 .hero-title{
@@ -196,10 +171,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-
-/* .gallery-list-item{
-  width: calc((100% - 120) / 4);
-} */
 .studio{
   margin-left: 93px;
 margin-top: 15px;
@@ -230,6 +201,7 @@ margin-top: 15px;
 margin-left: 30px;
   margin-top: 30px;
    flex-basis: calc(100% / 4 - 30px);
+   text-align: start;
 }
 
  
@@ -240,14 +212,7 @@ margin-left: 30px;
    margin-left: -30px;
   margin-top: -30px;
   padding: 0px;
-/*   material shadow v1 */
-  /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px; */
-
 }
-/* .team-member-people:not(:first-child){
-margin-left: 30px;
-} */
 .team-member{
   margin-left: 30px;
   margin-top: 30px;
@@ -364,9 +329,14 @@ box-sizing: border-box;
   margin-left: 24px;
   margin-top: 20px;
 }
-.description-text{
+.description-text-portfolio{
   margin-left: 24px;
   margin-top: 4px;
+  font-family: Roboto;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
 }
 .button-style{
  margin-left: 30px;
