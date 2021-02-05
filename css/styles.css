@@ -42,6 +42,7 @@ a.nav-title {
 }
 .remove-markers {
   list-style-type: none;
+  padding: 0%;
 }
 .hero-background {
   position: absolute;
@@ -203,6 +204,7 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  background-color: white;
 }
 
 .container {
@@ -226,9 +228,10 @@ img {
   text-align: center;
 }
 .advantages-position {
-  margin-top: 110px;
-  margin-bottom: 110px;
-}
+ margin-top: 94px;
+margin-bottom: 94px;
+ }
+
 .header-work {
   padding-bottom: 50px;
 }
@@ -275,6 +278,8 @@ img {
 .footer {
   background: #2f303a;
   max-height: 252px;
+  display: flex;
+  align-items: center;
 }
 .footer-address-color {
   color: rgba(255, 255, 255, 0.6);
@@ -419,4 +424,66 @@ img {
 
 .clients-list-links:hover .clients-links-items {
   fill: var(--text-color);
+}
+.footer-social-block{
+  margin-left: 70px;
+  font-weight: 700;
+  color: white;
+}
+.footer-social-block .social-list-icon{
+ fill: white; 
+}
+.footer-social-block .social-list-link{
+  background: rgba(255, 255, 255, 0.1);
+}
+.footer-social-block:hover .social-list-link:hover{
+  background-color: var(--text-color); 
+}
+.social-list-footer{
+ margin-top: -10px;
+ margin-left: -10px;
+}
+.links-footer{
+  margin-top: 10px;
+  margin-left: 10px;
+  flex-basis: calc(100% / 4 - 10px);
+}
+.header-icon{
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+.list-inline{
+  display: flex;
+  min-width: 150px;
+}
+li.list-inline>svg:hover{
+ fill: var(--text-color);
+}
+li.list-inline a:hover,
+li.list-inline a:focus{
+ color: var(--text-color);
+}
+.advantages-icons{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.advantages-icons-list{
+  display: flex;
+  min-width: 270px;
+  min-height: 120px;
+  background: #F5F4FA;
+border-radius: 4px;
+margin-top: 30px;
+margin-left: 30px;
+flex-basis: calc(100% / 4 - 30px);
+align-items: center;
+justify-content: center;
+}
+.advantages-icons-svg{
+  max-width: 70px;
+  max-height: 70px;
 }
