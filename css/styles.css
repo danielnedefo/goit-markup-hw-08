@@ -163,14 +163,14 @@ img {
   max-width: 100%;
   height: auto;
 }
-.studio {
+.nav-list-header{
   margin-left: 93px;
 }
-.portfolio {
-  margin-left: 50px;
+.nav-list-links:not(:nth-child(3)){
+ margin-right: 50px;
 }
-.contacts {
-  margin-left: 50px;
+.studio {
+  margin-left: 93px;
 }
 .email {
   margin-left: 331px;
@@ -273,7 +273,6 @@ margin-bottom: 94px;
   margin-left: 15px;
 }
 .footer-list {
-  padding-inline-start: 0px;
   list-style-type: none;
   margin-left: 15px;
   margin-top: 9px;
@@ -336,9 +335,6 @@ margin-bottom: 94px;
 }
 .button-style {
   margin-left: 30px;
-}
-.buttom-text-hero {
-  page-break-inside: 10px 32px;
 }
 .link-block {
   display: block;
