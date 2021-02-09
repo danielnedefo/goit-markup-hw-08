@@ -25,7 +25,7 @@
         <ul class="remove-markers inline nav-list-header">
           <li class="nav-list-links">
             <div class="div-line">
-            <a class="link-decoration link-line link-block" href=""> Студия</a>
+            <a class="link-decoration link-line color-light link-block" href=""> Студия</a>
             </div>
           </li>
           <li class="nav-list-links">
@@ -41,8 +41,7 @@
           <svg class="header-icon">
             <use href="./images/sprite3.svg#icon-envelope-hover"></use>
           </svg>
-          <a
-            class="link-decoration link-block nav-grey"
+          <a class="link-decoration link-block nav-grey"
             href="mailto:info@devstudio.com"
             >info@devstudio.com
           </a>
@@ -142,7 +141,7 @@
         <h2 class="h-center h2-title header-work">Чем мы занимаемся</h2>
         <ul class="remove-markers inline photos">
           <li class="photos-item">
-            <a a href="#" class="link">
+            <a  href="#" class="link">
             <div class="team-list-img-wrapper">
             <img src="images/img.jpg" width="370" alt="Планируем" />
             <p class="overlay-works">Десктопные приложения</p>
@@ -150,7 +149,7 @@
             </a>
           </li>
           <li class="photos-item">
-            <a a href="#" class="link">
+            <a  href="#" class="link">
             <div class="team-list-img-wrapper">
             <img src="images/img.png" width="370" alt="Делаем дизайн" />
             <p class="overlay-works">Мобильные приложения</p>
@@ -158,7 +157,7 @@
             </a>
           </li>
           <li class="photos-item">
-            <a a href="#" class="link">
+            <a  href="#" class="link">
             <div class="team-list-img-wrapper">
             <img src="./images/vision.png" width="370" alt="Визуализируем" />
             <p class="overlay-works">Дизайнерские решения</p>
@@ -380,7 +379,7 @@
       </ul>
       </div>
     <footer class="footer">
-      <div class="main-container">
+      <div class="container main-container">
       <div class="footer-block">
         <div class="footer-logo">
       <a class="nav-title" href="./index.html">
@@ -444,7 +443,52 @@
       <div class="modal">
         <button type="button" class="modal-btn-close" data-modal-close>X</button>
         <script src="./modal.js"></script>
+        <form action="" class="contact-form">
+          <span>
+        <p class="title-madal-form">Оставьте свои данные, мы вам перезвоним</p>
+        </span>
+        <label for="name" class="contact-form-field">
+          Имя
+        <span class="contact-form-input-wrapper">
+        <input type="text" name="name" id="name" class="contact-form-input">
+        <svg class="contact-form-icon">
+          <use href="./images/sprite5.svg#icon-Vector-4"></use>
+        </svg>
+        </span>
+        </label>
+        <label for="tel" class="contact-form-field">
+          Телфон
+        <span class="contact-form-input-wrapper">
+        <input type="tel" name="tel" id="tel" class="contact-form-input">
+        <svg class="contact-form-icon">
+          <use href="./images/sprite5.svg#icon-Vector-5"></use>
+        </svg>
+        </span>
+        </label>
+        <label for="email" class="contact-form-field">
+          Почта
+          <span class="contact-form-input-wrapper">
+        <input type="email" name="email" id="email" class="contact-form-input">
+        <svg class="contact-form-icon">
+          <use href="./images/sprite5.svg#icon-Vector-6"></use>
+        </svg>
+        </span>
+        </label>
+        <label for="" class="contact-form-field">
+          Коментарии
+          <span class="contact-form-input-wrapper">
+          <textarea name="" id="" cols="30" rows="10" class="contact-form-message" placeholder="Введите текст">
+          </textarea>
+          </span>
+        </label>
+        <input type="checkbox" name="" id="">
+        <label for="" class="label-link">
+        Соглашаюсь с рассылкой и принимаю <a href=""> Условия договора</a>
+        </label>
+        <button type="submit" class="modal-button">Отправить</button>
+        </form>
       </div>
     </div>
+    
   </body>
 </html>
