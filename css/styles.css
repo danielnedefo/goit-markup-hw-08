@@ -480,6 +480,19 @@ li.nav-list-links a:focus {
   margin-right: 10px;
   fill: var(--nav-grey);
 }
+a.nav-grey:hover .header-icon{
+ fill: var(--text-color);
+}
+input:hover,
+input:focus{
+  border: 1px solid var(--text-color);
+}
+input:hover ~ svg{
+ fill: var(--text-color);
+}
+.modal-btn-close:hover{
+  color: var(--text-color);
+}
 .list-inline{
   display: flex;
   min-width: 150px;
