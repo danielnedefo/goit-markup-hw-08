@@ -18,7 +18,6 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
 }
 /* Остальной код */
 :root {
@@ -30,7 +29,7 @@ body {
   background: #ffffff;
   margin: 0px;
 }
-a.nav-title {
+.nav-title {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -53,15 +52,6 @@ a.nav-title {
 .remove-markers {
   list-style-type: none;
   padding: 0%;
-}
-.hero-background {
-  position: absolute;
-  width: 100%;
-  height: 600px;
-  left: 0px;
-  top: 80px;
-
-  background: #2f303a;
 }
 .address-font {
   font-family: Roboto;
@@ -260,9 +250,6 @@ margin-bottom: 94px;
 .team {
   padding-bottom: 94px;
   background-color: #f5f4fa;
-}
-.main-footer-container{
-  display: flex;
 }
 .footer-block {
   box-sizing: border-box;
@@ -466,7 +453,6 @@ li.nav-list-links a:focus {
   background-color: var(--text-color); 
 }
 .social-list-footer{
- /* margin-top: -10px; */
  margin-left: -10px;
 }
 .links-footer{
@@ -614,7 +600,7 @@ flex-basis: calc(100% / 4 - 30px);
   display: flex;
   margin: 0px
 }
-.icon-container{
+.container-icon{
   display: flex;
   border-radius: 4px;
   width: 100%;
@@ -737,14 +723,15 @@ letter-spacing: 0.06em;
 height: 50px;
 border: 1px solid rgba(255, 255, 255, 0.3);
 box-sizing: border-box;
-/* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); */
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
 padding-top: 15px;
 padding-bottom: 15px;
 padding-left: 15px;
 margin-right: 12px;
 margin-top: 20px;
-opacity: 0.1;
+background: transparent;
+color: white;
 }
 .form-footer{
   display: flex;
