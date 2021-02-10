@@ -437,14 +437,20 @@
               </li>
             </ul>
       </div>
-      </div>
-      <div>
-        <form action="">
+      <div class="form-block">
+        <p>Подпишитесь на рассылку</p>
+        <form action="" class="form-footer">
           <label for="">
-            <input type="email">
+            <input type="email" class="emai-form" placeholder="Email">
           </label>
-          <button type="submit"></button>
+          <button type="submit" class="subsribe-btn">
+            Подписаться
+             <svg class="subsribe-icon">
+            <use href="./images/sprite6.svg#icon-icon-send"></use>
+          </svg>
+          </button>
         </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -489,8 +495,11 @@
           </textarea>
           </span>
         </label>
-        <input type="checkbox" name="" id="">
-        <label for="" class="label-link">
+        <input type="checkbox" name="" id="" class="contact-form-check-policy visually-hidden">
+        <label for="" class="contact-form-policy-label label-link">
+          <svg class="svg-modal-check">
+            <use href="./images/sprite7.svg#icon-Vector-8"></use>
+          </svg>
         Соглашаюсь с рассылкой и принимаю <a href=""> Условия договора</a>
         </label>
         <button type="submit" class="modal-button">Отправить</button>
