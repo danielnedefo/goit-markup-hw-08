@@ -21,3 +21,14 @@ p {
 .color-light {
   color: var(--text-color);
 }
+input:hover,
+input:focus {
+  border: 1px solid var(--text-color);
+}
+input:hover ~ svg {
+  fill: var(--text-color);
+}
+
+.link {
+  text-decoration: none;
+}

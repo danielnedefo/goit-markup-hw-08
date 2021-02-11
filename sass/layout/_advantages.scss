@@ -1,0 +1,30 @@
+.advantages-position {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+.advantages-icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  margin-top: -30px;
+  margin-left: -30px;
+&-list {
+  margin-top: 30px;
+  margin-left: 30px;
+  flex-basis: calc(100% / 4 - 30px);
+&-svg {
+  max-width: 70px;
+  max-height: 70px;
+}
+}
+}
+.container-icon {
+  display: flex;
+  border-radius: 4px;
+  width: 100%;
+  height: 120px;
+  background-color: #f5f4fa;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}

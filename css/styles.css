@@ -178,12 +178,6 @@ img {
   margin-left: 50px;
   min-width: 122px;
 }
-.cell {
-  flex-wrap: wrap;
-  display: flex;
-  margin-left: -30px;
-  margin-top: -30px;
-}
 .team-list {
   display: flex;
   flex-wrap: wrap;
@@ -281,6 +275,7 @@ img {
 .nav-title-studio-footer {
   color: white;
 }
+/* <!--portfolio--> */
 .work-list {
   display: flex;
   flex-wrap: wrap;
@@ -300,6 +295,7 @@ li.work-list-works:hover{
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 }
+/* <!--portfolio--> */
 .main-position {
   margin-bottom: 94px;
   margin-top: 94px;
@@ -312,10 +308,12 @@ border-radius: 0px 0px 4px 4px;
   text-align: center;
   margin-top: 10px;
 }
+/* <!--portfolio--> */
 .project-name {
   margin-left: 24px;
   margin-top: 20px;
 }
+/* <!--portfolio--> */
 .description-text-portfolio {
   margin-left: 24px;
   margin-top: 4px;
@@ -326,6 +324,7 @@ border-radius: 0px 0px 4px 4px;
   color: #757575;
   margin-bottom: 20px;
 }
+/* <!--portfolio--> */
 .button-style {
   margin-left: 30px;
 }
@@ -350,10 +349,6 @@ li.nav-list-links a:hover,
 li.nav-list-links a:focus {
   color: var(--text-color);
 }
-.list-nav {
-  padding: 0px;
-  justify-content: center;
-}
 .social-list-icon {
   width: 20px;
   height: 20px;
@@ -363,10 +358,6 @@ li.nav-list-links a:focus {
   margin-top: 16px;
   margin-bottom: 30px;
   justify-content: center;
-}
-.list-link-position {
-  min-width: 206px;
-  height: 44px;
 }
 .social-list-link {
   display: flex;
@@ -410,6 +401,7 @@ li.nav-list-links a:focus {
 .clients-links-items {
   max-width: 88px;
   max-height: 52px;
+  fill: #afb1b8;
 }
 .icons-list {
   display: flex;
@@ -428,9 +420,6 @@ li.nav-list-links a:focus {
 .title-clients {
   margin-bottom: 50px;
   font-weight: 700;
-}
-.clients-links-items {
-  fill: #afb1b8;
 }
 .clients-list-links:hover {
   border-color: var(--text-color);
@@ -602,10 +591,6 @@ li.list-inline a:focus {
 .link {
   text-decoration: none;
 }
-.main-container {
-  display: flex;
-  margin: 0px;
-}
 .container-icon {
   display: flex;
   border-radius: 4px;
@@ -744,12 +729,6 @@ textarea {
   height: 24px;
   fill: white;
   margin-left: 10px;
-}
-.check-input {
-  position: absolute;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
 }
 .modal-checkbox-btn {
   -webkit-appearance: none;

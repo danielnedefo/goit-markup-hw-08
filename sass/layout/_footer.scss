@@ -29,9 +29,38 @@
   padding-left: 0px;
   &-phone {
   margin-top: 9px;
+  &-address-color {
+  color: rgba(255, 255, 255, 0.6);
+  &-social-block {
+  margin-top: 72px;
+  margin-left: 70px;
+  font-weight: 700;
+  color: white;
+  &-social-block .social-list-icon {
+  fill: white;
+  &-social-block .social-list-link {
+  background: rgba(255, 255, 255, 0.1);
+  &-social-block:hover .social-list-link:hover {
+  background-color: var(--text-color);
 }
 }
 }
 }
 }
+}
+}
+}
+}
+}
+}
+.nav-title-studio-footer {
+  color: white;
+}
+.social-list-footer {
+  margin-left: -10px;
+}
+.links-footer {
+  margin-top: 10px;
+  margin-left: 10px;
+  flex-basis: calc(100% / 4 - 10px);
 }

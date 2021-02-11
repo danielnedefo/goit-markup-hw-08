@@ -27,3 +27,78 @@
   display: flex;
   height: 80px;
 }
+.link-block {
+  display: block;
+}
+.div-line {
+  position: relative;
+}
+.link-line::before {
+  position: absolute;
+  top: 43px;
+  display: inline-block;
+  content: "";
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--text-color);
+  overflow: hidden;
+}
+li.nav-list-links a:hover,
+li.nav-list-links a:focus {
+  color: var(--text-color);
+}
+.nav-list-links:not(:nth-child(3)) {
+  margin-right: 50px;
+}
+.studio {
+  margin-left: 93px;
+}
+.email {
+  margin-left: 331px;
+}
+.phone {
+  margin-left: 50px;
+  min-width: 122px;
+}.link-line::before {
+  position: absolute;
+  top: 43px;
+  display: inline-block;
+  content: "";
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--text-color);
+  overflow: hidden;
+}
+.header-icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: var(--nav-grey);
+}
+a.nav-grey:hover .header-icon,
+a.nav-grey:focus .header-icon {
+  fill: var(--text-color);
+}
+.list-inline {
+  display: flex;
+  min-width: 150px;
+}
+.address-nav-link {
+  margin-right: 30px;
+}
+li.list-inline > svg:hover,
+li.list-inline > svg:focus {
+  fill: var(--text-color);
+}
+li.list-inline a:hover,
+li.list-inline a:focus {
+  color: var(--text-color);
+}
+.nav-grey {
+  color: var(--nav-grey);
+}
+.address-nav {
+  margin-left: 305px;
+}
