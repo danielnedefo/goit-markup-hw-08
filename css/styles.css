@@ -74,6 +74,7 @@ body {
 .color-light {
   color: var(--text-color);
 }
+/* <!--portfolio--> */
 .change-color:hover {
   color: white;
   background-color: var(--text-color);
@@ -385,7 +386,8 @@ li.nav-list-links a:focus {
 .social-list-link-margin:not(:last-child) {
   margin-right: 10px;
 }
-.social-list-link:hover .social-list-icon {
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
   fill: white;
 }
 .clients-list {
@@ -434,7 +436,8 @@ li.nav-list-links a:focus {
   border-color: var(--text-color);
 }
 
-.clients-list-links:hover .clients-links-items {
+.clients-list-links:hover .clients-links-items,
+.clients-list-links:focus .clients-links-items{
   fill: var(--text-color);
 }
 .footer-social-block {
@@ -466,7 +469,8 @@ li.nav-list-links a:focus {
   margin-right: 10px;
   fill: var(--nav-grey);
 }
-a.nav-grey:hover .header-icon {
+a.nav-grey:hover .header-icon,
+a.nav-grey:focus .header-icon {
   fill: var(--text-color);
 }
 input:hover,
@@ -580,14 +584,13 @@ li.list-inline a:focus {
   padding: 20px;
   background-color: rgba(47, 48, 58, 0.8);
   color: #ffffff;
-  transform: translateY(100%);
+  transform: translateY(0%);
   transition: transform 250ms linear;
 }
 .team-list-img-wrapper:hover .overlay,
 .team-list-img-wrapper:focus .overlay {
   transform: translateY(0%);
 }
-.team-list-img-wrapper:hover .overlay-works,
 .team-list-img-wrapper:focus .overlay-works {
   transform: translateY(0%);
 }
