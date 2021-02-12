@@ -5,7 +5,8 @@
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 10px;
-  &-portfolio {
+}
+.description-text-portfolio {
   margin-left: 24px;
   margin-top: 4px;
   font-family: Roboto;
@@ -15,4 +16,13 @@
   color: #757575;
   margin-bottom: 20px;
 }
+.description-head {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  color: #212121;
+  letter-spacing: 0.06em;
+  margin-left: 24px;
 }

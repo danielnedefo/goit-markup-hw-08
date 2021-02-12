@@ -15,14 +15,6 @@
 }
 }
 }
-.link-decoration {
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  text-decoration: none;
-  color: #212121;
-}
 .header-position {
   display: flex;
   height: 80px;
@@ -105,4 +97,7 @@ li.list-inline a:focus {
 .nav-list-header {
   position: relative;
   margin-left: 93px;
+}
+li.nav-list-links .link-decoration{
+ color: #212121;
 }

@@ -1,0 +1,56 @@
+.main-position {
+  margin-bottom: 94px;
+  margin-top: 94px;
+}
+.work-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+  padding: 0px;
+}
+.work-list-works {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc(100% / 3 - 30px);
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background-color: var(--text-color);
+  color: #ffffff;
+  transform: translateY(101%);
+  font-size: 18px;
+  line-height: 1.56;
+  padding: 63px 24px;
+  letter-spacing: 0.03em;
+
+  color: #FFFFFF;
+
+  transition: transform 250ms linear;
+}
+.team-list-img-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.link-work:hover .overlay,
+.link-work:focus .overlay {
+  transform: translateY(0%);
+}
+.link-work:focus .overlay-works {
+  transform: translateY(0%);
+}
+li.work-list-works:hover{
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+.work-list-position{
+  margin-top: 50px;
+}

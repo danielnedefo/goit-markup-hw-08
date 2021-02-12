@@ -2,8 +2,9 @@
   display: flex;
   padding: 0%;
   justify-content: space-evenly;
-  
-  &-links {
+  padding-bottom: 94px;
+}
+.clients-list-links {
   display: flex;
   min-width: 170px;
   min-height: 90px;
@@ -12,15 +13,14 @@
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
-  margin-bottom: 94px;
-  &-links:hover {
+}
+.clients-list-links:hover {
   border-color: var(--text-color);
-  &-links:hover .clients-links-items,
-  &-links:focus .clients-links-items{
+}
+
+.clients-list-links:hover .clients-links-items,
+.clients-list-links:focus .clients-links-items{
   fill: var(--text-color);
-}
-}
-}
 }
 .clients-links-items {
   max-width: 88px;

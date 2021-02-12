@@ -12,12 +12,13 @@
   margin-top: 30px;
   margin-left: 30px;
   flex-basis: calc(100% / 4 - 30px);
+}
 &-svg {
   max-width: 70px;
   max-height: 70px;
 }
 }
-}
+
 .container-icon {
   display: flex;
   border-radius: 4px;
