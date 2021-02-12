@@ -31,3 +31,18 @@
   margin-bottom: 50px;
   font-weight: 700;
 }
+.nav-title {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: black;
+ &-web {
+  color: var(--text-color);
+}
+}
+.nav-title-studio-footer {
+  color: white;
+}

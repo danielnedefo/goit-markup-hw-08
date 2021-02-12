@@ -352,6 +352,7 @@ li.nav-list-links a:focus {
 .social-list-icon {
   width: 20px;
   height: 20px;
+  fill: #afb1b8;
 }
 .social-list {
   display: flex;
@@ -370,9 +371,6 @@ li.nav-list-links a:focus {
 .social-list-link:hover,
 .social-list-link:focus {
   background-color: var(--text-color);
-}
-.social-list-icon {
-  fill: #afb1b8;
 }
 .social-list-link-margin:not(:last-child) {
   margin-right: 10px;

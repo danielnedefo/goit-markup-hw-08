@@ -3,30 +3,40 @@
   margin-top: 16px;
   margin-bottom: 30px;
   justify-content: center;
-  &-icon {
-    width: 20px;
-    height: 20px;
-  &-link {
+}
+.social-list-link {
   display: flex;
   width: 44px;
   height: 44px;
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-  &-link:hover,
-  &-link:focus {
+}
+.social-list-link:hover,
+.social-list-link:focus {
   background-color: var(--text-color);
-  &-icon {
-  fill: #afb1b8;
-  &-link-margin:not(:last-child) {
+}
+.social-list-link-margin:not(:last-child) {
   margin-right: 10px;
-  &-link:hover .social-list-icon,
-  &-link:focus .social-list-icon {
+}
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
   fill: white;
 }
+.social-list-icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
 }
+.footer-social-block .social-list-icon {
+  fill: white;
 }
+.footer-social-block .social-list-link {
+  background: rgba(255, 255, 255, 0.1);
 }
+.footer-social-block:hover .social-list-link:hover {
+  background-color: var(--text-color);
 }
-}
+.social-list-footer {
+  margin-left: -10px;
 }

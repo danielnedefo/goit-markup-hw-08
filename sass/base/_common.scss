@@ -32,3 +32,21 @@ input:hover ~ svg {
 .link {
   text-decoration: none;
 }
+.inline {
+  display: flex;
+  align-items: center;
+}
+:root {
+  --text-color: #2196f3;
+  --nav-grey: #757575;
+}
+body {
+  font-family: Roboto, sans-serif;
+  background: #ffffff;
+  margin: 0px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

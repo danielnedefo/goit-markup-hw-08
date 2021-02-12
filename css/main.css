@@ -34,6 +34,16 @@ input:hover ~ svg {
   text-decoration: none;
 }
 
+.inline {
+  display: flex;
+  align-items: center;
+}
+
+:root {
+  --text-color: #2196f3;
+  --nav-grey: #757575;
+}
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -245,6 +255,20 @@ input:hover ~ svg {
   appearance: none;
 }
 
+.hero-button {
+  color: white;
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 32px;
+  margin-top: 30px;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 4px;
+}
+
 .social-list {
   display: flex;
   margin-top: 16px;
@@ -321,6 +345,24 @@ input:hover ~ svg {
 .title-clients {
   margin-bottom: 50px;
   font-weight: 700;
+}
+
+.nav-title {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-title-web {
+  color: var(--text-color);
+}
+
+.nav-title-studio-footer {
+  color: white;
 }
 
 .works {
@@ -591,7 +633,7 @@ textarea {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
-  padding-bottom: 94px;
+  margin-bottom: 94px;
 }
 
 .clients-list-links-links:hover {
@@ -816,5 +858,10 @@ li.list-inline a:focus {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
+}
+
+.advantages-icons-svg {
+  max-width: 70px;
+  max-height: 70px;
 }
 /*# sourceMappingURL=main.css.map */
