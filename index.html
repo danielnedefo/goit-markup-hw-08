@@ -11,9 +11,11 @@
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.2.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/main.css" />
+    <script src="./menu.js"></script>
   </head>
   <body>
-    <header class="container">
+    <header>
+      <div class="container">
       <div class="header-position">
        <nav class="inline">
         <div>
@@ -36,6 +38,11 @@
           </li>
         </ul>
       </nav>
+      <button class="burger-btn" data-menu-open>
+                <svg class="burger-btn-icon">
+                    <use href="./images/sprite8.svg"></use>
+                </svg>
+            </button>
       <ul class="remove-markers inline address-nav">
         <li class="list-inline address-nav-link">
           <a class="link-decoration link-block nav-grey"
@@ -55,9 +62,10 @@
         </li>
       </ul>
        </div>
+       </div>
     </header>
     <main>
-      <div class="hero-title">
+      <div class="hero-title container">
       <section class="hero">
         <div class="hero-title-position ">
         <h1 class="title">Эффективные решения<br>для вашего бизнеса</h1>
@@ -66,6 +74,7 @@
       </section>
       </div>
       <section class="advantages-position">
+        <div class="container">
         <h2 class="h-center h-hidden">Наши приемущества</h2>
         <div class="container">
           <ul class="remove-markers advantages-icons container">
@@ -134,6 +143,7 @@
             </div>
             </li>
           </ul>
+        </div>
         </div>
       </section>
       <section class="works">
@@ -378,8 +388,8 @@
         </li>
       </ul>
       </div>
-    <footer class="footer">
-      <div class="container main-container">
+    <footer class="footer container">
+      <div class="main-container">
       <div class="footer-block">
         <div class="footer-logo">
       <a class="nav-title" href="./index.html">

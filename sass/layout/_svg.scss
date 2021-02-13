@@ -1,6 +1,9 @@
 .advantages-icons-svg {
   max-width: 70px;
   max-height: 70px;
+  @media screen and (max-width:480px) {
+    width: 450px;
+  }
 }
 .social-list-icon {
   width: 20px;

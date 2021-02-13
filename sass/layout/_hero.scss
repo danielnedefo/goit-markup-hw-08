@@ -3,14 +3,31 @@
   box-sizing: border-box;
   background-image: url(../images/background.jpg);
   background-repeat: no-repeat;
+  @media screen and (max-width: 480px)   {
+    width: 480px;
+    height: 400px;
+    background-image:url(../images/herobgmobile.jpg)
+   }
+  @media screen and (min-width: 768px)   {
+    width: 768px;
+  }
+  @media screen and (min-width: 1200px)   {
+    width: 1200px;
+     background-image: url(../images/background.jpg);
+  }
 
-&-title {
+.hero-title {
   background: #2f303a;
 }
-&-title-position {
+
+.hero-title-position {
   margin: 0 auto;
   padding-top: 200px;
-  &-button {
+  @media screen and (max-width:480px) {
+    padding-top: 118px;
+  }
+}
+.hero-button {
   color: white;
   background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -22,7 +39,8 @@
   cursor: pointer;
   border: 0px;
   border-radius: 4px;
-  &-button {
+}
+.hero-button {
   color: white;
   background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -36,6 +54,5 @@
   border-radius: 4px;
 }
 }
-}
-}
+
 

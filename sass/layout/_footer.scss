@@ -35,6 +35,15 @@
 .footer {
   background: #2f303a;
   margin: auto;
+  @media screen and (min-width:480px) {
+    width: 480px;
+  }
+  @media screen and (min-width:768px) {
+    width: 768px;
+  }
+  @media screen and (min-width:1200px) {
+    width: 1200px;
+  }
 }
 .footer-address-color {
   color: rgba(255, 255, 255, 0.6);
@@ -70,5 +79,8 @@
 }
 .main-container{
   display: flex;
-  margin: 0px
+  margin: 0px;
+  @media screen and (max-width:480px) {
+    display: block;
+  } 
 }

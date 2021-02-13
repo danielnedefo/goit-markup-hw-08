@@ -93,6 +93,7 @@ div.div-line a.color-light {
   letter-spacing: 0.06em;
   padding: 6px 22px;
   border-width: 0px;
+border-radius: 4px;
 }
 .description-head {
   font-family: Roboto;
@@ -147,12 +148,6 @@ div.div-line a.color-light {
 }
 .menu {
   padding: 110px;
-}
-.description {
-  margin-top: 94px;
-  width: 1170px;
-  height: 101px;
-  margin-bottom: 94px;
 }
 .inline {
   display: flex;
