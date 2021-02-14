@@ -17,6 +17,11 @@
     align-items: center;
     margin-bottom: 60px;
   }
+  @media screen and (min-width:768px) {
+    align-items: center;
+    margin-bottom: 60px;
+    margin-left: 76px;
+  }
 }
 .footer-logo {
   margin-top: 60px;
@@ -75,6 +80,10 @@
     margin-top: 0px;
     text-align: center;
   }
+  @media screen and (min-width:768px) {
+   text-align: center;
+   margin-left: 165px;
+  }
 }
 .footer-social-block .social-list-icon {
   fill: white;
@@ -88,7 +97,12 @@
 .main-container{
   display: flex;
   margin: 0px;
-  @media screen and (max-width:480px) {
+  @media screen and (min-width:480px) {
     display: block;
+  } 
+}
+.table-footer{
+  @media screen and (min-width:768px) {
+    display: flex;
   } 
 }

@@ -13,6 +13,9 @@
 }
 .link-block {
   display: block;
+  @media screen and (min-width:768px) {
+    display: flex;
+  }
 }
 .div-line {
   position: relative;
@@ -88,12 +91,20 @@ li.list-inline a:focus {
   @media screen and (max-width: 767px) {
     display: none;
   }
+  @media screen and (min-width: 768px) {
+    display: block;
+    margin-left: 84px;
+    margin-top: 25px;
+}
 }
 .nav-list-header {
   position: relative;
   margin-left: 93px;
   @media screen and (max-width: 767px) {
     display: none;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
   }
 }
 li.nav-list-links .link-decoration{
