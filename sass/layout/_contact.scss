@@ -66,6 +66,11 @@ textarea {
   text-transform: uppercase;
   margin-top: 72px;
   margin-left: 93px;
+  @media screen and (min-width:480px) {
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+  }
 }
 .emai-form {
   width: 358px;
@@ -83,5 +88,9 @@ textarea {
   color: white;
 }
 .form-footer {
-  display: flex;
+  display: flex; 
+  @media screen and (min-width:480px) {
+    display: block;
+    margin: 0 auto;
+  }
 }

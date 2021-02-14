@@ -13,7 +13,10 @@
   display: flex;
   flex-direction: column;
   min-width: 231px;
-  height: 252px;
+  @media screen and (min-width:480px) {
+    align-items: center;
+    margin-bottom: 60px;
+  }
 }
 .footer-logo {
   margin-top: 60px;
@@ -58,15 +61,20 @@
   margin-top: 10px;
   margin-left: 10px;
   flex-basis: calc(100% / 4 - 10px);
-}
-.form-footer {
-  display: flex;
+  @media screen and (min-width:480px) {
+   flex-basis: 0px;
+  }
 }
 .footer-social-block {
   margin-top: 72px;
   margin-left: 70px;
   font-weight: 700;
   color: white;
+  @media screen and (max-width:480px) {
+    margin-left: 0px;
+    margin-top: 0px;
+    text-align: center;
+  }
 }
 .footer-social-block .social-list-icon {
   fill: white;

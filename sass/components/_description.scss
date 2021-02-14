@@ -5,6 +5,10 @@
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 10px;
+  @media screen and (min-width:480px) {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 .description-text-portfolio {
   margin-left: 24px;

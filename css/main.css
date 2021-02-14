@@ -57,6 +57,12 @@ img {
   height: auto;
 }
 
+@media screen and (min-width: 480) {
+  .main {
+    width: 480px;
+  }
+}
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -118,7 +124,7 @@ img {
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .hero {
     width: 480px;
     height: 400px;
@@ -148,7 +154,7 @@ img {
   padding-top: 200px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .hero .hero-title-position {
     padding-top: 118px;
   }
@@ -190,7 +196,8 @@ img {
 
 @media (min-width: 480px) {
   .container {
-    width: 480px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
@@ -217,6 +224,13 @@ img {
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 10px;
+}
+
+@media screen and (min-width: 480px) {
+  .description-text {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 
 .description-text-portfolio {
@@ -310,6 +324,13 @@ img {
   letter-spacing: 0.06em;
 }
 
+@media screen and (min-width: 480px) {
+  .subsribe-btn {
+    display: initial;
+    margin-bottom: 60px;
+  }
+}
+
 .modal-checkbox-btn {
   -webkit-appearance: none;
   appearance: none;
@@ -361,7 +382,7 @@ img {
 .burger-btn-icon {
   width: 24px;
   height: 16px;
-  fill: #ffffff;
+  fill: black;
 }
 
 .burger-btn:focus {
@@ -386,6 +407,12 @@ img {
   margin-top: 16px;
   margin-bottom: 30px;
   justify-content: center;
+}
+
+@media screen and (min-width: 480px) {
+  .social-list {
+    margin-bottom: 60px;
+  }
 }
 
 .social-list-link {
@@ -445,7 +472,7 @@ img {
   color: #ffffff;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .title {
     font-weight: 900;
     font-size: 26px;
@@ -504,6 +531,13 @@ div.item h3 {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+@media screen and (min-width: 480px) {
+  div.item h3 {
+    text-align: center;
+    margin-top: 30px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -585,9 +619,10 @@ div.item h3 {
   margin-bottom: 30px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .container-icon {
     width: 450px;
+    margin: 0 auto;
   }
 }
 
@@ -672,6 +707,14 @@ textarea {
   margin-left: 93px;
 }
 
+@media screen and (min-width: 480px) {
+  .form-block {
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+  }
+}
+
 .emai-form {
   width: 358px;
   height: 50px;
@@ -692,6 +735,13 @@ textarea {
   display: flex;
 }
 
+@media screen and (min-width: 480px) {
+  .form-footer {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 .address-font {
   font-family: Roboto;
   font-style: normal;
@@ -708,7 +758,13 @@ textarea {
   display: flex;
   flex-direction: column;
   min-width: 231px;
-  height: 252px;
+}
+
+@media screen and (min-width: 480px) {
+  .footer-block {
+    align-items: center;
+    margin-bottom: 60px;
+  }
 }
 
 .footer-logo {
@@ -773,8 +829,10 @@ textarea {
   flex-basis: calc(100% / 4 - 10px);
 }
 
-.form-footer {
-  display: flex;
+@media screen and (min-width: 480px) {
+  .links-footer {
+    flex-basis: 0px;
+  }
 }
 
 .footer-social-block {
@@ -782,6 +840,14 @@ textarea {
   margin-left: 70px;
   font-weight: 700;
   color: white;
+}
+
+@media screen and (max-width: 480px) {
+  .footer-social-block {
+    margin-left: 0px;
+    margin-top: 0px;
+    text-align: center;
+  }
 }
 
 .footer-social-block .social-list-icon {
@@ -825,6 +891,12 @@ textarea {
   border-radius: 4px;
 }
 
+@media screen and (max-width: 480px) {
+  .clients-list-links {
+    width: 210px;
+  }
+}
+
 .clients-list-links:hover {
   border-color: var(--text-color);
 }
@@ -851,6 +923,12 @@ textarea {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 6 - 30px);
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  .icons-list-item {
+    flex-basis: calc(100% / 2 - 30px);
+  }
 }
 
 .container-clients {
@@ -1075,7 +1153,7 @@ li.nav-list-links .link-decoration {
   padding: 0px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .team-list {
     display: block;
   }
@@ -1090,7 +1168,7 @@ li.nav-list-links .link-decoration {
   background-color: white;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .team-member {
     width: 480px;
     justify-content: center;
@@ -1147,7 +1225,7 @@ li.nav-list-links .link-decoration {
   max-height: 70px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .advantages-icons-svg {
     width: 450px;
   }
