@@ -403,6 +403,30 @@ img {
   }
 }
 
+.portfolio-inline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 480px) {
+  .portfolio-inline {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 15px;
+  }
+}
+
+.button-style {
+  margin-left: 30px;
+}
+
+@media screen and (min-width: 480px) {
+  .button-style {
+    margin-left: 8px;
+  }
+}
+
 .social-list {
   display: flex;
   margin-top: 16px;
@@ -1340,6 +1364,12 @@ li.nav-list-links .link-decoration {
 .main-position {
   margin-bottom: 94px;
   margin-top: 94px;
+}
+
+@media screen and (min-width: 480px) {
+  .main-position {
+    margin-top: 60px;
+  }
 }
 
 .work-list {
